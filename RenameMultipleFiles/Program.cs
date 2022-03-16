@@ -43,7 +43,7 @@ namespace RenameMultipleFilesExtension
 
 
 
-            // Error message to handle empty path
+            // Error message to handle empty target extension
             if (targetExt == String.Empty)
             {
                 ShowErrorMessage("Target extension can not be empty!");
@@ -58,7 +58,7 @@ namespace RenameMultipleFilesExtension
 
 
 
-            // Error message to handle empty path
+            // Error message to handle empty new extension
             if (ext == String.Empty)
             {
                 ShowErrorMessage("Extension can not be empty!");
